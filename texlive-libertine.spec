@@ -1,12 +1,12 @@
-# revision 31570
+# revision 31928
 # category Package
 # catalog-ctan /fonts/libertine
-# catalog-date 2013-08-16 23:25:04 +0200
+# catalog-date 2013-10-17 15:24:04 +0200
 # catalog-license lppl
 # catalog-version 5.3.0
 Name:		texlive-libertine
 Version:	5.3.0
-Release:	1
+Release:	2
 Summary:	Use of Linux Libertine and Biolinum fonts with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/libertine
