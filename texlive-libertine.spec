@@ -6,7 +6,7 @@
 # catalog-version 5.1.3x6
 Name:		texlive-libertine
 Version:	5.1.3x6
-Release:	3
+Release:	4
 Summary:	Use the font Libertine with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/libertine
