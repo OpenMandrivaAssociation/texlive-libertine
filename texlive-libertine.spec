@@ -1,6 +1,6 @@
 Name:		texlive-libertine
-Version:	64359
-Release:	2
+Version:	68981
+Release:	1
 Summary:	Use of Linux Libertine and Biolinum fonts with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/libertine
