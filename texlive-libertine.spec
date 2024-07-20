@@ -1,5 +1,5 @@
 Name:		texlive-libertine
-Version:	68981
+Version:	71061
 Release:	1
 Summary:	Use of Linux Libertine and Biolinum fonts with LaTeX
 Group:		Publishing
