@@ -3,7 +3,7 @@ Version:	71061
 Release:	1
 Summary:	Use of Linux Libertine and Biolinum fonts with LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/libertine
+URL:		https://www.ctan.org/tex-archive/fonts/libertine
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/libertine.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/libertine.doc.r%{version}.tar.xz
