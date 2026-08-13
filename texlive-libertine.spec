@@ -1,9 +1,10 @@
 %global tl_name libertine
 %global tl_revision 77682
+%global tl_version 5.3.0
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	5.3.0
+Version:	%{tl_version}
 Release:	%{tl_revision}.1
 Summary:	Use of Linux Libertine and Biolinum fonts with LaTeX
 Group:		Publishing
@@ -17,7 +18,8 @@ Requires:	texlive(fontaxes)
 Requires:	texlive(iftex)
 Requires:	texlive(mweights)
 Requires:	texlive(xkeyval)
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 The package provides the Libertine and Biolinum fonts in both Type 1 and
@@ -27,3 +29,10 @@ only. The mweights package is used to manage the selection of font
 weights. The package supersedes both the libertineotf and the libertine-
 legacy packages.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from libertine:
+Map libertine.map
+TL_DROPIN_EOF
